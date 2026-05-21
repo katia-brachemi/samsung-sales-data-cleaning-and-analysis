@@ -3,10 +3,10 @@
 # Samsung Global Product Sales Analysis (2021 – 2024) 📱📊
 This dataset found on Kaggle simulates a realistic global sales records for Samsung Electronics products presenting **5,500 synthetic transactions** across **52 countries and 555+ cities**.
 
-## 🎯 Business Objective
+## 🎯 Business Objective 
 This analysis tracks sales performance across product categories and distribution channels between 2021 and 2024. The primary objective was to explore the shifting of the revenue, categorize sales into groups (digital, physical), and pinpoint specific underperforming categories within physical retail spaces to conclude strategic decision-making.
----
 
+---
 ## 🛠️ Tech Stack & Python Libraries
 * **Language:** Python
 * **Libraries Used:** 
