@@ -32,5 +32,20 @@ Before extracting insights, the raw dataset underwent rigorous data cleaning to 
 * **The Discovery:** To uncover *where* the Smart TV crash occurred, I segmented 2023 vs. 2024 revenue specifically for Smart TVs across **Digital vs. Physical** sales channels.
 * **The Root Cause:** The data revealed that **Physical Stores** suffered a catastrophic drop of **$257,054.43** in Smart TV sales. 
 
-<img width="570" height="456" alt="image" src="https://github.com/user-attachments/assets/47751e06-127a-476e-902e-2c8395a7e4fc" />
+<img width="554" height="406" alt="image" src="https://github.com/user-attachments/assets/135662f0-63d6-452a-af39-488809e3b91e" />
+
+### 3. Physical stores Deep Dive: 
+* **What I did:** Once I knew physical stores were having trouble, I filtered for the "Physical" channel only to check the health of every single product.
+* **The discovery:** * **Smart TVs** had the worst drop (down over 30%).
+  * Wearables are also struggling in stores (**Galaxy Buds** dropped over 20%, **Galaxy Watches** dropped nearly 18%).
+  * On the bright side, **Galaxy S** phones and **Accessories** are doing great and actually growing in physical stores.
+
+<img width="1002" height="485" alt="image" src="https://github.com/user-attachments/assets/4c860dcb-7496-4bdc-bfb1-3fa7e5718455" />
+
+### 4. Digital Channels Deep Dive:
+* **What I did:** I filtered for the "Digital" channel only and calculated the YoY percentage growth/decline for all product categories.
+* **The discovery:** * **Online Resilience:** Unlike physical retail, **Smart TVs** did not crash online, proving that consumer demand for the product still exists digitally.
+  * **Digital Growth:** Flagship products and accessories showed strong positive trends, acting as a major revenue cushion for the company in 2024.
+
+<img width="1015" height="490" alt="image" src="https://github.com/user-attachments/assets/ef1fcd06-42d2-4877-9527-1d35471654d7" />
 
