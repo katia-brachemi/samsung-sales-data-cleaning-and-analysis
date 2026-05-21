@@ -46,7 +46,7 @@ Visuals/physical_store_product.png
 * **What I did:** I filtered for the "Digital" channel only and calculated the YoY percentage growth/decline for all product categories.
 * **The discovery:** Online demand for **Smart TVs** did not crash. Furthermore, top-tier **Galaxy S** phones and **Accessories** showed strong upward trends online, confirming the company's digital ecosystem is highly resilient.
 
-Visuals/digital_store_product_health.png
+https://github.com/katia-brachemi/samsung-sales-data-cleaning-and-analysis/blob/c2e8bd489884244942f6121aba6e6dec22c71b19/Visuals/digital_store_product.png
 
 ### 5. Geographical and Product Root-Cause Isolation
 * **What I did:** To find the exact operational breakdown, I filtered for physical Smart TV sales and broke them down by `region`. This revealed that the revenue crash was heavily concentrated in **Europe and Asia**. I then grouped the data by individual `product_name` within those regions to find the specific product responsible.
