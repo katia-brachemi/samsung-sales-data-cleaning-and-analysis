@@ -59,6 +59,8 @@ Before extracting insights, the raw dataset underwent rigorous data cleaning to 
 ## 🖥️ Interactive Analytics Dashboard
 * **What I did:** To present these insights clearly, I used **Streamlit** to build a dynamic sales analytics dashboard (`app.py`). 
 
+![Streamlit Dashboard Screenshot](Visuals/streamlit_dashboard.png)
+
  **Features:**
 * **Summary Metrics:** Instantly shows the exact drop in dollars and the percentage of units lost for the TV model.
 * **Side-by-Side View:** Puts the online growth charts right next to a colored table tracking individual TV models.
