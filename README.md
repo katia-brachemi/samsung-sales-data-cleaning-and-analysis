@@ -27,3 +27,10 @@ Before extracting insights, the raw dataset underwent rigorous data cleaning to 
 * **The Root Cause:** By isolating the year-over-year revenue impact using mathematical deltas, I discovered that **Smart TVs** were almost entirely responsible for the shortfall, suffering a massive individual loss of **$178,551.48**. 
 
 <img width="944" height="530" alt="image" src="https://github.com/user-attachments/assets/7e524bcb-c452-4769-8290-b61e93d61f4d" />
+
+### 2. Channel Deep-Dive: 
+* **The Discovery:** To uncover *where* the Smart TV crash occurred, I segmented 2023 vs. 2024 revenue specifically for Smart TVs across **Digital vs. Physical** sales channels.
+* **The Root Cause:** The data revealed that **Physical Stores** suffered a catastrophic drop of **$257,054.43** in Smart TV sales. 
+
+<img width="570" height="456" alt="image" src="https://github.com/user-attachments/assets/47751e06-127a-476e-902e-2c8395a7e4fc" />
+
