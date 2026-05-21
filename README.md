@@ -1,5 +1,3 @@
-## Still Working on it
-
 # Samsung Global Product Sales Analysis (2021 – 2024) 📱📊
 This dataset found on Kaggle simulates a realistic global sales records for Samsung Electronics products presenting **5,500 synthetic transactions** across **52 countries and 555+ cities**.
 
