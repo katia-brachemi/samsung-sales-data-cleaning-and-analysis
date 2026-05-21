@@ -53,11 +53,12 @@ Before extracting insights, the raw dataset underwent rigorous data cleaning to 
 
 ### 6. Investigating the QN900C Sales Numbers
 * **What I did:** I isolated the **QN900C** model inside physical stores across Europe and Asia. I used an aggregation function (`.agg()`) to track its average retail price (`unit_price_usd`), actual transaction price (`discounted_price_usd`), and total volume (`units_sold`) year-over-year.
-**The discovery:** The data revealed a catastrophic volume collapse. In 2023, physical stores sold **65 units** of this TV model. In 2024, sales plummeted to just **8 units**, even though the price remained stable around \$5,000. This single product drop-off explains the entire global revenue anomaly.
+* **The discovery:** The data revealed a catastrophic volume collapse. In 2023, physical stores sold **65 units** of this TV model. In 2024, sales plummeted to just **8 units**, even though the price remained stable around \$5,000. This single product drop-off explains the entire global revenue anomaly.
 
 ## 🖥️ Interactive Analytics Dashboard
 * **What I did:** To present these insights clearly, I used **Streamlit** to build a dynamic sales analytics dashboard (`app.py`). 
-* **Features:**
+
+ **Features:**
 * **Summary Metrics:** Instantly shows the exact drop in dollars and the percentage of units lost for the TV model.
 * **Side-by-Side View:** Puts the online growth charts right next to a colored table tracking individual TV models.
 * **Analyst Notes:** Includes a quick summary box that explains the missing stock issue found in the data.
