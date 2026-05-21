@@ -26,13 +26,13 @@ Before extracting insights, the raw dataset underwent rigorous data cleaning to 
 * **The Discovery:** Global revenue experienced a sharp decline of **$176,619.09** in 2024 compared to 2023. 
 * **The Root Cause:** By isolating the year-over-year revenue impact using mathematical deltas, I discovered that **Smart TVs** were almost entirely responsible for the shortfall, suffering a massive individual loss of **$178,551.48**. 
 
-![Revenue Impact by Category](revenue_impact.png)
+Visuals/revenue_impact.png
 
 ### 2. Channel Deep-Dive: 
 * **The Discovery:** To uncover *where* the Smart TV crash occurred, I segmented 2023 vs. 2024 revenue specifically for Smart TVs across **Digital vs. Physical** sales channels.
 * **The Root Cause:** The data revealed that **Physical Stores** suffered a catastrophic drop of **$257,054.43** in Smart TV sales. 
 
-![Percentage Change by Channel](channel_percentage_change.png)
+Visuals/channel_percentage_change.png
 
 ### 3. Physical stores Deep Dive: 
 * **What I did:** Once I knew physical stores were having trouble, I filtered for the "Physical" channel only to check the health of every single product.
@@ -40,13 +40,13 @@ Before extracting insights, the raw dataset underwent rigorous data cleaning to 
   * Wearables are also struggling in stores (**Galaxy Buds** dropped over 20%, **Galaxy Watches** dropped nearly 18%).
   * On the bright side, **Galaxy S** phones and **Accessories** are doing great and actually growing in physical stores.
 
-![Physical Stores Product Health](physical_store_product.png)
+Visuals/physical_store_product.png
 
 ### 4. Digital Channels Deep Dive:
 * **What I did:** I filtered for the "Digital" channel only and calculated the YoY percentage growth/decline for all product categories.
 * **The discovery:** Online demand for **Smart TVs** did not crash. Furthermore, top-tier **Galaxy S** phones and **Accessories** showed strong upward trends online, confirming the company's digital ecosystem is highly resilient.
-* 
-![Digital Channels Product Health](digital_store_product.png)
+
+Visuals/digital_store_product_health.png
 
 ### 5. Geographical and Product Root-Cause Isolation
 * **What I did:** To find the exact operational breakdown, I filtered for physical Smart TV sales and broke them down by `region`. This revealed that the revenue crash was heavily concentrated in **Europe and Asia**. I then grouped the data by individual `product_name` within those regions to find the specific product responsible.
