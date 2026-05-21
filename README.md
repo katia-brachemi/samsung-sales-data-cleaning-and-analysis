@@ -44,8 +44,13 @@ Before extracting insights, the raw dataset underwent rigorous data cleaning to 
 
 ### 4. Digital Channels Deep Dive:
 * **What I did:** I filtered for the "Digital" channel only and calculated the YoY percentage growth/decline for all product categories.
-* **The discovery:** * **Online Resilience:** Unlike physical retail, **Smart TVs** did not crash online, proving that consumer demand for the product still exists digitally.
-  * **Digital Growth:** Flagship products and accessories showed strong positive trends, acting as a major revenue cushion for the company in 2024.
-
+* **The discovery:** Online demand for **Smart TVs** did not crash. Furthermore, top-tier **Galaxy S** phones and **Accessories** showed strong upward trends online, confirming the company's digital ecosystem is highly resilient.
 <img width="1015" height="490" alt="image" src="https://github.com/user-attachments/assets/ef1fcd06-42d2-4877-9527-1d35471654d7" />
 
+### 5. Geographical and Product Root-Cause Isolation
+* **What I did:** To find the exact operational breakdown, I filtered for physical Smart TV sales and broke them down by `region`. This revealed that the revenue crash was heavily concentrated in **Europe and Asia**. I then grouped the data by individual `product_name` within those regions to find the specific product responsible.
+* **The discovery:** I successfully isolated the exact product driving the entire global decline: the **Samsung Neo QLED 8K QN900C**. 
+
+### 6. Investigating the QN900C Sales Numbers
+* **What I did:** I isolated the **QN900C** model inside physical stores across Europe and Asia. I used an aggregation function (`.agg()`) to track its average retail price (`unit_price_usd`), actual transaction price (`discounted_price_usd`), and total volume (`units_sold`) year-over-year.
+**The discovery:** The data revealed a catastrophic volume collapse. In 2023, physical stores sold **65 units** of this TV model. In 2024, sales plummeted to just **8 units**, even though the price remained stable around \$5,000. This single product drop-off explains the entire global revenue anomaly.
