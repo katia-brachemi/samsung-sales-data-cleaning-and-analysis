@@ -13,7 +13,7 @@ This analysis tracks sales performance across product categories and distributio
 ---
 
 ## ⚙️ Data Engineering & Cleaning Process
-Before extracting insights, the raw dataset underwent rigorous data cleaning to ensure mathematical accuracy and standardized data presentation:
+I started by thoroughly cleaning the raw dataset to ensure the numbers were completely accurate and consistent
 * **Handling Missing Data:** Filled missing text (`storage`, `previous_device_os`) with `"Unknown"` and imputed missing `customer_rating` values using the column average (`mean`).
 * **Text Standardization:** Applied `.str.strip()` to remove accidental whitespaces and used `.str.title()` to fix capitalization issues across geographic and product columns (`country`, `region`, `city`, `category`).
 * **Financial Formatting:** Rounded `revenue_usd` to two decimal places for consistent financial data presentation.
