@@ -82,8 +82,8 @@ I used Python to clean this dataset and figure out exactly why Samsung's revenue
 Real-world data is messy. This project showed me that cleaning data and grouping it into simple categories is the best way to find and solve a real business problem.
 
 ## 🛠️ Tools
-*Python*
-*Jupyter*
+* **Python**
+* **Jupyter Notebook**
 ---
 
 ## License
