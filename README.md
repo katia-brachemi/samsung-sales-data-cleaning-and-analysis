@@ -55,15 +55,16 @@ I started by thoroughly cleaning the raw dataset to ensure both the text categor
 * **What I did:** I isolated the **QN900C** model inside physical stores across Europe and Asia. I used an aggregation function (`.agg()`) to track its average retail price (`unit_price_usd`), actual transaction price (`discounted_price_usd`), and total volume (`units_sold`) year-over-year.
 * **The discovery:** In 2023, physical stores sold 65 units of this model. By 2024, sales dropped to just 8 units, despite a stable price of around $5,000. This single product decline is responsible for the entire global revenue drop.
 
-## 🖥️ Interactive Analytics Dashboard
-* **What I did:** To present these insights clearly, I used **Streamlit** to build a dynamic sales analytics dashboard (`app.py`). 
+## 🖥️ Interactive Dashboard
+
+* **What I did:** I used **Streamlit** to build a simple sales dashboard (`app.py`).
 
 ![Samsung Dashboard](Visuals/Samsung%20Global%20Sales%20Analytics%20Dashboard.jpeg)
 
- **Features:**
-* **Summary Metrics:** Instantly shows the exact drop in dollars and the percentage of units lost for the TV model.
-* **Side-by-Side View:** Puts the online growth charts right next to a colored table tracking individual TV models.
-* **Analyst Notes:** Includes a quick summary box that explains the missing stock issue found in the data.
+**Main Features:**
+* **Key Numbers:** Shows the exact drop in money and units lost for the TV model.
+* **Side-by-Side Charts:** Compares online sales next to physical store sales.
+* **Analyst Summary:** Includes a quick notes box explaining the missing stock problem.
 
 *How to run the dashboard locally:*
 ```bash
