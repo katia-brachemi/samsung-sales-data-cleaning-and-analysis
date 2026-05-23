@@ -73,6 +73,8 @@ streamlit run app.py
 
 I used Python to clean this dataset and figure out exactly why Samsung's revenue dropped. By Slicing the data by simplified **Online** vs. **Physical Store** channels instantly revealed that the decline was driven entirely by physical locations, while online sales stayed steady.
 
+Looking closer at the store data, the biggest drop happened in premium TV sales—specifically the **Neo QLED 8K**, which lost over $264,000 in retail revenue compared to last year.
+
 ### My Recommendations to Fix the drop:
 * **Check Underperforming Stores:** Investigate the specific regions that dropped the most to see if they faced local shipping delays or staffing shortages.
 * **Bring online shoppers to the stores:** Try a "buy online, pick up in-store" option to get people walking through the physical doors.
