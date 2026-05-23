@@ -67,3 +67,24 @@ Before extracting insights, the raw dataset underwent rigorous data cleaning to 
 *How to run the dashboard locally:*
 ```bash
 streamlit run app.py
+```
+---
+## Conclusion & Recommendations
+
+I used Python to clean this dataset and figure out exactly why Samsung's revenue dropped. By Slicing the data by simplified **Online** vs. **Physical Store** channels instantly revealed that the decline was driven entirely by physical locations, while online sales stayed steady.
+
+### My Recommendations to Fix the drop:
+* **Check Underperforming Stores:** Investigate the specific regions that dropped the most to see if they faced local shipping delays or staffing shortages.
+* **Bring online shoppers to the stores:** Try a "buy online, pick up in-store" option to get people walking through the physical doors.
+* **Run local sales:** Put up special discounts or promotions only in the cities where sales dropped.
+
+### What I Learned:
+Real-world data is messy. This project showed me that cleaning data and grouping it into simple categories is the best way to find and solve a real business problem.
+
+## 🛠️ Tools
+**Python** 
+**Jupyter** 
+---
+
+## License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
