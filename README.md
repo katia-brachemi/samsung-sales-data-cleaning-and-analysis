@@ -13,10 +13,11 @@ This analysis tracks sales performance across product categories and distributio
 ---
 
 ## ⚙️ Data Engineering & Cleaning Process
-I started by thoroughly cleaning the raw dataset to ensure the numbers were completely accurate and consistent
-* **Handling Missing Data: Replaced missing text with "Unknown" and filled empty customer ratings with the average score.
-* **Standardizing Text: Used .str.strip() to remove accidental spaces and .str.title() to fix messy capitalization in the location and product columns.
-* **Formatting Money: Rounded revenue numbers to two decimal places so the financial data looks clean and consistent.
+I started by thoroughly cleaning the raw dataset to ensure the numbers were completely accurate and consistent:
+
+* **Handling Missing Data:** Replaced missing text with "Unknown" and filled empty customer ratings with the average score.
+* **Standardizing Text:** Used `.str.strip()` to remove accidental spaces and `.str.title()` to fix messy capitalization in the location and product columns.
+* **Formatting Money:** Rounded revenue numbers to two decimal places so the financial data looks clean and consistent.
   
 ## 📈 Key Insights & Visualizations
 
