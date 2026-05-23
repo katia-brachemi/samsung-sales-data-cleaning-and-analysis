@@ -58,7 +58,7 @@ I started by thoroughly cleaning the raw dataset to ensure both the text categor
 ## 🖥️ Interactive Analytics Dashboard
 * **What I did:** To present these insights clearly, I used **Streamlit** to build a dynamic sales analytics dashboard (`app.py`). 
 
-![Streamlit Dashboard Screenshot](Visuals/streamlit_dashboard.png)
+![Samsung Dashboard](Visuals/Samsung%20Global%20Sales%20Analytics%20Dashboard.jpeg)
 
  **Features:**
 * **Summary Metrics:** Instantly shows the exact drop in dollars and the percentage of units lost for the TV model.
