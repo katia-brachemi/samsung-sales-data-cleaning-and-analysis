@@ -14,10 +14,10 @@ This analysis tracks sales performance across product categories and distributio
 
 ## ⚙️ Data Engineering & Cleaning Process
 I started by thoroughly cleaning the raw dataset to ensure the numbers were completely accurate and consistent
-* **Handling Missing Data:** Filled missing text (`storage`, `previous_device_os`) with `"Unknown"` and imputed missing `customer_rating` values using the column average (`mean`).
-* **Text Standardization:** Applied `.str.strip()` to remove accidental whitespaces and used `.str.title()` to fix capitalization issues across geographic and product columns (`country`, `region`, `city`, `category`).
-* **Financial Formatting:** Rounded `revenue_usd` to two decimal places for consistent financial data presentation.
-
+* **Handling Missing Data: Replaced missing text with "Unknown" and filled empty customer ratings with the average score.
+* **Standardizing Text: Used .str.strip() to remove accidental spaces and .str.title() to fix messy capitalization in the location and product columns.
+* **Formatting Money: Rounded revenue numbers to two decimal places so the financial data looks clean and consistent.
+  
 ## 📈 Key Insights & Visualizations
 
 ### 1. Global Revenue Drop Driven by Smart TV Sales (2023 vs. 2024)
